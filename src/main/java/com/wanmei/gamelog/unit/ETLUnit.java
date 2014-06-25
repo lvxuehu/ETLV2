@@ -33,7 +33,7 @@ public class ETLUnit {
             if (tempStr.length > 0) {
                 logFileName = tempStr[tempStr.length - 1];
             }
-            logFileName = logFileName.substring(0, logFileName.length() - 5);
+            logFileName = logFileName.substring(0, logFileName.length() - 6);
         }
         return logFileName;
     }

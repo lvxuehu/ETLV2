@@ -54,7 +54,8 @@ public class ParameterBean {
     }
 
     public void setEtlClassName(String etlClassName) {
-        this.etlClassName = etlClassName;
+    	System.out.println("etlClassName="+etlClassName);
+    	this.etlClassName = etlClassName;
     }
 
     public String getPattern() {
@@ -62,6 +63,7 @@ public class ParameterBean {
     }
 
     public void setPattern(String pattern) {
+    	System.out.println("pattern="+pattern);
         this.pattern = pattern;
     }
 
@@ -70,7 +72,8 @@ public class ParameterBean {
     }
 
     public void setLogFilePathAndName(String logFilePathAndName) {
-        this.logFilePathAndName = logFilePathAndName;
+    	System.out.println("logFilePathAndName = "+logFilePathAndName);
+    	this.logFilePathAndName = logFilePathAndName;
     }
 
     public String getLogFileName() {
@@ -78,7 +81,8 @@ public class ParameterBean {
     }
 
     public void setLogFileName(String logFileName) {
-        this.logFileName = logFileName;
+    	System.out.println("logFileName = "+logFileName);
+    	this.logFileName = logFileName;
     }
 
     public String getDay() {
@@ -86,7 +90,8 @@ public class ParameterBean {
     }
 
     public void setDay(String day) {
-        this.day = day;
+    	System.out.println("day = "+day);
+    	this.day = day;
     }
 
     public String getHour() {
@@ -94,6 +99,7 @@ public class ParameterBean {
     }
 
     public void setHour(String hour) {
-        this.hour = hour;
+    	System.out.println("hour = "+hour);
+    	this.hour = hour;
     }
 }

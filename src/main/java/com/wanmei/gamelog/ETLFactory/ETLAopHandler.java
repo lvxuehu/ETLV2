@@ -24,7 +24,7 @@ public class ETLAopHandler implements InvocationHandler {
         Object result = null;
         try {
 //请在这里插入代码，在方法前调用
-            System.out.printf("ETL:" + method.getName());
+            //System.out.printf("ETL:" + method.getName());
             result = method.invoke(proxyObj, args); //原方法
 //请在这里插入代码，方法后调用
         } catch (Exception e) {
